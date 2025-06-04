@@ -22,9 +22,6 @@ Este repositorio contiene todos los algoritmos y ejercicios desarrollados durant
 - **TP03**: Arrays y Matrices
 - **TP04**: Funciones y Procedimientos
 
-### 🔬 Pruebas Autodidactas C++
-- Ejercicios de Programación Orientada a Objetos
-
 ## 🛠️ Tecnologías Utilizadas
 - C
 - C++(Por ahora de forma autodidacta)
