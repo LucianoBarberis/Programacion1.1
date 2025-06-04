@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     int opc, nAuto, hora, min, seg, ms;
@@ -11,6 +12,7 @@ int main() {
         printf("0. Ver resultados\n");
         printf("Ingrese opcion: ");
         scanf("%d", &opc);
+        system("cls");
 
         if (opc == 1) {
             printf("Auto N: ");
@@ -32,6 +34,7 @@ int main() {
             do {
                 printf("Milesimas: ");
                 scanf("%d", &ms);
+                system("cls");
             } while (ms >= 100 || ms <= 0);
 
             if (index == 0) {
