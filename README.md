@@ -24,7 +24,6 @@ Este repositorio contiene todos los algoritmos y ejercicios desarrollados durant
 
 ## 🛠️ Tecnologías Utilizadas
 - C
-- C++(Por ahora de forma autodidacta)
 - PSeInt (Diagramas de flujo)
 
 ## 📌 Temas Cubiertos
@@ -43,8 +42,9 @@ Este repositorio contiene todos los algoritmos y ejercicios desarrollados durant
 4. Ejecuta el programa: `nombreArchivo.exe`
 
 ## 📊 Progreso del Curso
-- [x] TP01 - Completado
-- [x] TP02 - Completado
-- [x] TP03 - Completado
-- [x] TP04 - Completado
+- [x] TP01 - Algoritmos Basicos
+- [x] TP02 - Algoritmos Basicos
+- [x] TP03 - Bucles
+- [x] TP04 - Condicionales
+- [x] TP05 - Funciones y Punteros
 
