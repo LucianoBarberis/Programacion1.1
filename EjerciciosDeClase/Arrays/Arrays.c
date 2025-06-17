@@ -50,7 +50,7 @@ void mostrarArray(int arr[]) {
 
 // Selection Sort
 void ordenarArray(int arr[]) {
-    int i,j, aux;
+    int i,j,x, aux;
 
     for (i = 0; i <= T-2; i++){
         for (j = i+1; j <= T-1; j++){
@@ -60,6 +60,10 @@ void ordenarArray(int arr[]) {
                 arr[j] = aux;
             }
         }
+        for (x = 0; x < T; x++){
+            printf("%d ", arr[x]);
+        }
+        printf("\n");
     }
     mostrarArray(arr);
 }
