@@ -6,10 +6,6 @@ Este repositorio contiene todos los algoritmos y ejercicios desarrollados durant
 
 ### 📂 Ejercicios de Clase
 - **Anidación de Bucles**
-  - DoWhileDoWhile
-  - ForFor
-  - ForWhile
-  - WhileWhile
 - **Arrays**
 - **Bucles**
 - **Funciones**
@@ -43,7 +39,7 @@ Este repositorio contiene todos los algoritmos y ejercicios desarrollados durant
 
 ## 📊 Progreso del Curso
 - [x] TP01 - Algoritmos Basicos
-- [x] TP02 - Algoritmos Basicos
+- [x] TP02 - Algoritmos Basicos 2
 - [x] TP03 - Bucles
 - [x] TP04 - Condicionales
 - [x] TP05 - Funciones y Punteros
