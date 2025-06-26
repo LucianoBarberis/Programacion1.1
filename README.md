@@ -43,4 +43,4 @@ Este repositorio contiene todos los algoritmos y ejercicios desarrollados durant
 - [x] TP03 - Bucles
 - [x] TP04 - Condicionales
 - [x] TP05 - Funciones y Punteros
-
+- [x] TP06 - Arreglos y Matrices
