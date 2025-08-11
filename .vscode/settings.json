@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "*.c": "c",
-        "iterator": "c",
-        "xmemory": "c",
-        "xutility": "c",
-        "string.h": "c"
-    }
-}
