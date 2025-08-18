@@ -1,0 +1,15 @@
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.exe
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.deps.json
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.runtimeconfig.json
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.dll
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.pdb
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.AssemblyInfoInputs.cache
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.AssemblyInfo.cs
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.sourcelink.json
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.dll
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\refint\PracticaDeFunciones.dll
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.pdb
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.genruntimeconfig.cache
+C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\ref\PracticaDeFunciones.dll
