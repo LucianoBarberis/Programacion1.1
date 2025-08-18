@@ -1,24 +1,30 @@
-# 🎓 Introducción a los algoritmos y a la programación - Primer Año UAI | ing. en Sistemas
+# 🎓 Introducción a los algoritmos y a la programación / Programación y estructura de datos - Primer Año UAI | ing. en Sistemas
 
 Este repositorio contiene todos los algoritmos y ejercicios desarrollados durante mi primer año en la Universidad Abierta Interamericana (UAI).
 
 ## 📚 Estructura del Repositorio
 
-### 📂 Ejercicios de Clase
-- **Anidación de Bucles**
-- **Arrays**
-- **Bucles**
-- **Funciones**
-- **Punteros**
-- **Switch**
+### 1erCuatrimestre
 
-### 📝 Trabajos Prácticos
+#### 📝 Trabajo Prácticos
+- **EjerciciosDeClase**: Codigo realizado en las clases del curso
+- **PracticaAutodidacta**: Pruebas en general con C
 - **TP01**: Introducción a la Programación
 - **TP02**: Estructuras de Control
 - **TP03**: Arrays y Matrices
 - **TP04**: Funciones y Procedimientos
+- **TP05**: Arreglos Bidimencionales
+- **TP06**: Arreglos Bidimencionales
+
+### 2doCuatrimestre
+
+#### 📝 Trabajos Prácticos
+- **EjerciciosDeClase**: Codigo realizado en las clases del curso
+- **PracticaAutodidacta**: Pruebas en general con C
+- **TP01**: Introducción a C#
 
 ## 🛠️ Tecnologías Utilizadas
+- C#
 - C
 - PSeInt (Diagramas de flujo)
 
@@ -28,19 +34,5 @@ Este repositorio contiene todos los algoritmos y ejercicios desarrollados durant
 - Arrays y Matrices
 - Funciones y Procedimientos
 - Punteros
-- Introducción a POO (De forma autodidacta)
+- Introducción a POO
 - Algoritmos Básicos y Avanzados
-
-## 💻 Cómo Compilar los Programas
-1. Asegúrate de tener GCC instalado
-2. Navega hasta la carpeta del ejercicio
-3. Compila usando: `gcc nombreArchivo.c -o nombreArchivo.exe`
-4. Ejecuta el programa: `nombreArchivo.exe`
-
-## 📊 Progreso del Curso
-- [x] TP01 - Algoritmos Basicos
-- [x] TP02 - Algoritmos Basicos 2
-- [x] TP03 - Bucles
-- [x] TP04 - Condicionales
-- [x] TP05 - Funciones y Punteros
-- [x] TP06 - Arreglos y Matrices
