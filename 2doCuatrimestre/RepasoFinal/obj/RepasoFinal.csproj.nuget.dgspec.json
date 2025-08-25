@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Navegador\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj": {}
+    "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Navegador\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj": {
+    "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Navegador\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj",
+        "projectUniqueName": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj",
         "projectName": "RepasoFinal",
-        "projectPath": "C:\\Users\\Navegador\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj",
-        "packagesPath": "C:\\Users\\Navegador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Navegador\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\obj\\",
+        "projectPath": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj",
+        "packagesPath": "C:\\Users\\Luciano\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Navegador\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Luciano\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\Navegador\\SQLClient": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
