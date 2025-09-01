@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\TP0100\\TP0100.csproj": {}
+    "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\TP0100\\TP0100.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\TP0100\\TP0100.csproj": {
+    "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\TP0100\\TP0100.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\TP0100\\TP0100.csproj",
+        "projectUniqueName": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\TP0100\\TP0100.csproj",
         "projectName": "TP0100",
-        "projectPath": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\TP0100\\TP0100.csproj",
-        "packagesPath": "C:\\Users\\Luciano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\TP0100\\obj\\",
+        "projectPath": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\TP0100\\TP0100.csproj",
+        "packagesPath": "C:\\Users\\vboxuser\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\TP0100\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Luciano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vboxuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

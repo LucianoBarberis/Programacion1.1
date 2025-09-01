@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Luciano\\.nuget\\packages\\": {}
+    "C:\\Users\\vboxuser\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj",
+      "projectUniqueName": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj",
       "projectName": "RepasoFinal",
-      "projectPath": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj",
-      "packagesPath": "C:\\Users\\Luciano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luciano\\Desktop\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\obj\\",
+      "projectPath": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\RepasoFinal.csproj",
+      "packagesPath": "C:\\Users\\vboxuser\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\RepasoFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Luciano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vboxuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
