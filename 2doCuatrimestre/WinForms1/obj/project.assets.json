@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vboxuser\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\WinForms1\\WinForms1.csproj",
-      "projectName": "WinForms1",
-      "projectPath": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\WinForms1\\WinForms1.csproj",
-      "packagesPath": "C:\\Users\\vboxuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vboxuser\\Source\\Repos\\Programacion1.1\\2doCuatrimestre\\WinForms1\\obj\\",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UAI\\2025\\Cuatrimestre 2\\Programacion 2\\Programacion1.1\\2doCuatrimestre\\WinForms1\\CalcIMC.csproj",
+      "projectName": "CalcIMC",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\UAI\\2025\\Cuatrimestre 2\\Programacion 2\\Programacion1.1\\2doCuatrimestre\\WinForms1\\CalcIMC.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\UAI\\2025\\Cuatrimestre 2\\Programacion 2\\Programacion1.1\\2doCuatrimestre\\WinForms1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vboxuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

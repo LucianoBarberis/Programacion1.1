@@ -26,15 +26,18 @@ namespace Practica001
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text == "")
+            if (textBox1.Text == "")
             {
                 MessageBox.Show("El campo no puede estar vacío");
                 return;
-            }else
+            }
+            else
             {
                 tarea = textBox1.Text;
                 this.Close();
             }
         }
+
+
     }
 }
