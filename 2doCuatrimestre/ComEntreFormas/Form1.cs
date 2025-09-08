@@ -20,10 +20,12 @@ namespace ComEntreFormas
             } 
             else if(selectMetodo.SelectedIndex == 1)
             {
-                Form3 form2 = new Form3();
-                form2.Texto = textBox1.Text;
-                form2.ShowDialog();
-                textBox1.Text = form2.Texto;
+                Form3 form3 = new Form3();
+                form3.Texto = textBox1.Text;
+
+                form3.ShowDialog();
+
+                textBox1.Text = form3.Texto;
             }
 
         }

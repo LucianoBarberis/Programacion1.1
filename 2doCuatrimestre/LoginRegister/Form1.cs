@@ -51,5 +51,12 @@ namespace LoginRegister
                 }
             }
         }
+        private void newUser()
+        {
+            Form2 register = new Form2();
+
+            register.ShowDialog();
+            
+        }
     }
 }
