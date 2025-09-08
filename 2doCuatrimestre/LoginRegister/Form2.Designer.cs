@@ -105,7 +105,6 @@
             Controls.Add(label1);
             Font = new Font("Inter Medium", 11F, FontStyle.Bold);
             Margin = new Padding(4);
-            Name = "Form2";
             Text = "Form2";
             ResumeLayout(false);
             PerformLayout();

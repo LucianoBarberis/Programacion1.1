@@ -23,14 +23,16 @@ namespace LoginRegister
         {
             nombre = textBox1.Text;
             contra = textBox2.Text;
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
         public string Name
         {
-            get { return contra; }
+            get { return nombre; }
         }
         public string Pass
         {
-            get { return nombre; }
+            get { return contra; }
         }
     }
 }
