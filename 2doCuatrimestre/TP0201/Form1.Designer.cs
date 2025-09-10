@@ -43,15 +43,20 @@
             cbGuia = new CheckBox();
             button1 = new Button();
             textBox1 = new TextBox();
+            menuStrip1 = new MenuStrip();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            opcionesToolStripMenuItem = new ToolStripMenuItem();
+            mujerToolStripMenuItem = new ToolStripMenuItem();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Inter SemiBold", 22F, FontStyle.Bold | FontStyle.Underline);
-            label1.Location = new Point(28, 9);
+            label1.Location = new Point(31, 38);
             label1.Name = "label1";
             label1.Size = new Size(393, 53);
             label1.TabIndex = 0;
@@ -60,7 +65,7 @@
             // name
             // 
             name.Font = new Font("Inter SemiBold", 13F, FontStyle.Bold);
-            name.Location = new Point(22, 104);
+            name.Location = new Point(22, 130);
             name.Name = "name";
             name.Size = new Size(231, 34);
             name.TabIndex = 1;
@@ -68,7 +73,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(22, 79);
+            label2.Location = new Point(22, 105);
             label2.Name = "label2";
             label2.Size = new Size(161, 22);
             label2.TabIndex = 2;
@@ -77,7 +82,7 @@
             // price
             // 
             price.Font = new Font("Inter SemiBold", 13F, FontStyle.Bold);
-            price.Location = new Point(22, 175);
+            price.Location = new Point(22, 201);
             price.Name = "price";
             price.Size = new Size(231, 34);
             price.TabIndex = 3;
@@ -85,7 +90,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(22, 150);
+            label3.Location = new Point(22, 176);
             label3.Name = "label3";
             label3.Size = new Size(96, 22);
             label3.TabIndex = 4;
@@ -96,7 +101,7 @@
             groupBox1.Controls.Add(rbtnCity);
             groupBox1.Controls.Add(rbtnMontaña);
             groupBox1.Controls.Add(rbtnPlaya);
-            groupBox1.Location = new Point(286, 79);
+            groupBox1.Location = new Point(286, 105);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(155, 130);
             groupBox1.TabIndex = 5;
@@ -141,7 +146,7 @@
             groupBox2.Controls.Add(cbComidas);
             groupBox2.Controls.Add(cbTraslados);
             groupBox2.Controls.Add(cbGuia);
-            groupBox2.Location = new Point(22, 230);
+            groupBox2.Location = new Point(22, 256);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(419, 78);
             groupBox2.TabIndex = 6;
@@ -181,7 +186,7 @@
             // button1
             // 
             button1.Font = new Font("Inter SemiBold", 15F, FontStyle.Bold);
-            button1.Location = new Point(22, 327);
+            button1.Location = new Point(22, 353);
             button1.Name = "button1";
             button1.Size = new Size(419, 58);
             button1.TabIndex = 7;
@@ -191,18 +196,52 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(22, 416);
+            textBox1.Location = new Point(22, 425);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
-            textBox1.Size = new Size(419, 212);
+            textBox1.Size = new Size(419, 180);
             textBox1.TabIndex = 8;
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(466, 28);
+            menuStrip1.TabIndex = 9;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { opcionesToolStripMenuItem });
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new Size(46, 24);
+            fileToolStripMenuItem.Text = "File";
+            // 
+            // opcionesToolStripMenuItem
+            // 
+            opcionesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { mujerToolStripMenuItem });
+            opcionesToolStripMenuItem.Name = "opcionesToolStripMenuItem";
+            opcionesToolStripMenuItem.Size = new Size(154, 26);
+            opcionesToolStripMenuItem.Text = "Opciones";
+            // 
+            // mujerToolStripMenuItem
+            // 
+            mujerToolStripMenuItem.AutoToolTip = true;
+            mujerToolStripMenuItem.CheckOnClick = true;
+            mujerToolStripMenuItem.Name = "mujerToolStripMenuItem";
+            mujerToolStripMenuItem.Size = new Size(104, 26);
+            mujerToolStripMenuItem.Text = "Si";
+            mujerToolStripMenuItem.ToolTipText = "Activar";
+            mujerToolStripMenuItem.Click += mujerToolStripMenuItem_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 22F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(466, 640);
+            ClientSize = new Size(466, 622);
             Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(groupBox2);
@@ -212,13 +251,17 @@
             Controls.Add(label2);
             Controls.Add(name);
             Controls.Add(label1);
+            Controls.Add(menuStrip1);
             Font = new Font("Inter SemiBold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Sistema De Cotización";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -240,5 +283,9 @@
         private CheckBox cbGuia;
         private Button button1;
         private TextBox textBox1;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem opcionesToolStripMenuItem;
+        private ToolStripMenuItem mujerToolStripMenuItem;
     }
 }

@@ -37,7 +37,5 @@ namespace Practica001
                 this.Close();
             }
         }
-
-
     }
 }

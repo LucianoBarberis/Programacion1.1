@@ -25,7 +25,8 @@ namespace TP0201
             if (precioBase <= 0 || string.IsNullOrEmpty(nombre))
             {
                 MessageBox.Show("Error! Rellena todos los campos", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }else
+            }
+            else
             {
                 if (rbtnCity.Checked)
                 {
@@ -56,6 +57,17 @@ namespace TP0201
                 textBox1.Text += $"Pasajero: {nombre}; Destino: {destino}; Precio: {precioBase} \r\n";
             }
 
+        }
+
+        private void mujerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(mujerToolStripMenuItem.Checked)
+            {
+                groupBox2.Enabled = false;
+            }else
+            {
+                groupBox2.Enabled = true;
+            }
         }
     }
 }
