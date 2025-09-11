@@ -13,14 +13,15 @@ namespace Practica001
     public partial class Form2 : Form
     {
         private string tarea;
-        public Form2(string taskToEdit)
+        public Form2()
         {
             InitializeComponent();
-            textBox1.Text = taskToEdit;
+            textBox1.Text = tarea;
         }
 
         public string Tarea
         {
+            set { tarea = value; }
             get { return tarea; }
         }
 

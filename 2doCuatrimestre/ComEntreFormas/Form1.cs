@@ -9,25 +9,16 @@ namespace ComEntreFormas
 
         private void btnSend_Click(object sender, EventArgs e)
         {
-            if(selectMetodo.SelectedIndex == -1)
+            if (string.IsNullOrWhiteSpace(textBox1.Text))
             {
-                return;
+                MessageBox.Show("Rellene todos los campos");
+            }else
+            {
+                Llegada form2 = new Llegada();
+                form2.Msg = textBox1.Text;
+                form2.ShowDialog();
+                textBox1.Text = form2.Msg;
             }
-            else if(selectMetodo.SelectedIndex == 0)
-            {
-                Form2 form = new Form2(textBox1.Text);
-                form.ShowDialog();
-            } 
-            else if(selectMetodo.SelectedIndex == 1)
-            {
-                Form3 form3 = new Form3();
-                form3.Texto = textBox1.Text;
-
-                form3.ShowDialog();
-
-                textBox1.Text = form3.Texto;
-            }
-
         }
     }
 }

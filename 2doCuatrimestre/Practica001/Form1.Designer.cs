@@ -58,13 +58,12 @@
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(524, 202);
             listBox1.TabIndex = 1;
-            listBox1.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // lblTitle
             // 
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Inter Medium", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(168, 9);
+            lblTitle.Location = new Point(168, 18);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(214, 53);
             lblTitle.TabIndex = 2;
@@ -90,7 +89,6 @@
             button2.TabIndex = 5;
             button2.Text = "Creditos";
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
             // 
             // btnEdit
             // 

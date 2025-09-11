@@ -1,6 +1,6 @@
 ﻿namespace ComEntreFormas
 {
-    partial class Form3
+    partial class Llegada
     {
         /// <summary>
         /// Required designer variable.
@@ -34,30 +34,32 @@
             // 
             // button1
             // 
-            button1.Location = new Point(117, 125);
+            button1.Location = new Point(12, 82);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(270, 55);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Guardar y Cerrar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(75, 74);
+            textBox1.Font = new Font("Segoe UI", 14F);
+            textBox1.Location = new Point(12, 28);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(197, 27);
+            textBox1.Size = new Size(270, 39);
             textBox1.TabIndex = 1;
             // 
-            // Form3
+            // Llegada
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(345, 183);
+            ClientSize = new Size(290, 149);
             Controls.Add(textBox1);
             Controls.Add(button1);
-            Name = "Form3";
-            Text = "Form3";
+            Name = "Llegada";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Llegada";
             ResumeLayout(false);
             PerformLayout();
         }
