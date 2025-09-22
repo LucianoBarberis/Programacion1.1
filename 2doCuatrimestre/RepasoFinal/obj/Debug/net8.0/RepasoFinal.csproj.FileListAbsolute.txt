@@ -13,3 +13,11 @@ C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug
 C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.pdb
 C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.genruntimeconfig.cache
 C:\Users\Navegador\Desktop\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\ref\RepasoFinal.dll
+C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.AssemblyInfoInputs.cache
+C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.AssemblyInfo.cs
+C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.csproj.CoreCompileInputs.cache
+C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.sourcelink.json
+C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.dll
+C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\refint\RepasoFinal.dll
+C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\RepasoFinal\obj\Debug\net8.0\RepasoFinal.pdb
