@@ -58,3 +58,18 @@ C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\PracticaDeFuncio
 C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.pdb
 C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.genruntimeconfig.cache
 C:\Users\Navegador\Source\Repos\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\ref\PracticaDeFunciones.dll
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.exe
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.deps.json
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.runtimeconfig.json
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.dll
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\bin\Debug\net8.0\PracticaDeFunciones.pdb
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.sourcelink.json
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.dll
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\refint\PracticaDeFunciones.dll
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.pdb
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\PracticaDeFunciones.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\UAI\2025\Cuatrimestre 2\Programacion 2\Programacion1.1\2doCuatrimestre\PracticaDeFunciones\obj\Debug\net8.0\ref\PracticaDeFunciones.dll
