@@ -6,7 +6,7 @@ int opc = 0;
 
 do
 {
-    Console.WriteLine("Interaccion con la pila");
+    Console.WriteLine("Interaccion con la Cola");
     Console.WriteLine("1. Apilar Elemento");
     Console.WriteLine("2. Desapilar Elemento");
     Console.WriteLine("0. Salir");
