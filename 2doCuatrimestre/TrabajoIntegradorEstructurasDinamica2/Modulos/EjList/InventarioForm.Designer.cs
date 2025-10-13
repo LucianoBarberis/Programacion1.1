@@ -53,9 +53,9 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(16, 186);
+            btnAdd.Location = new Point(14, 177);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(126, 37);
+            btnAdd.Size = new Size(270, 37);
             btnAdd.TabIndex = 1;
             btnAdd.Text = "Agregar Item";
             btnAdd.UseVisualStyleBackColor = true;
@@ -63,9 +63,9 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(155, 186);
+            btnDelete.Location = new Point(14, 218);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(130, 37);
+            btnDelete.Size = new Size(269, 37);
             btnDelete.TabIndex = 2;
             btnDelete.Text = "Eliminar Item";
             btnDelete.UseVisualStyleBackColor = true;
@@ -73,16 +73,16 @@
             // 
             // inpSearch
             // 
-            inpSearch.Location = new Point(17, 229);
+            inpSearch.Location = new Point(14, 261);
             inpSearch.Name = "inpSearch";
-            inpSearch.Size = new Size(181, 30);
+            inpSearch.Size = new Size(185, 30);
             inpSearch.TabIndex = 3;
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(204, 229);
+            btnSearch.Location = new Point(201, 261);
             btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(79, 30);
+            btnSearch.Size = new Size(82, 30);
             btnSearch.TabIndex = 4;
             btnSearch.Text = "Buscar";
             btnSearch.UseVisualStyleBackColor = true;
@@ -92,9 +92,9 @@
             // 
             lbItems.FormattingEnabled = true;
             lbItems.ItemHeight = 23;
-            lbItems.Location = new Point(17, 306);
+            lbItems.Location = new Point(306, 85);
             lbItems.Name = "lbItems";
-            lbItems.Size = new Size(267, 165);
+            lbItems.Size = new Size(404, 280);
             lbItems.TabIndex = 5;
             // 
             // inpAdd
@@ -108,7 +108,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 8F);
-            label2.Location = new Point(17, 284);
+            label2.Location = new Point(306, 63);
             label2.Name = "label2";
             label2.Size = new Size(98, 19);
             label2.TabIndex = 7;
@@ -145,7 +145,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(297, 491);
+            ClientSize = new Size(722, 380);
             Controls.Add(label4);
             Controls.Add(inpCantidad);
             Controls.Add(label3);
@@ -160,6 +160,7 @@
             Font = new Font("Segoe UI", 10F);
             Margin = new Padding(3, 4, 3, 4);
             Name = "InventarioForm";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "InventarioForm";
             ResumeLayout(false);
             PerformLayout();

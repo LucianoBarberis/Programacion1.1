@@ -50,7 +50,6 @@
             directorioTelefónicoToolStripMenuItem = new ToolStripMenuItem();
             catálogoDeProductosPorCódigoToolStripMenuItem = new ToolStripMenuItem();
             traductorDeIdiomasToolStripMenuItem = new ToolStripMenuItem();
-            opc1ToolStripMenuItem = new ToolStripMenuItem();
             aboutUsToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             label2 = new Label();
@@ -64,13 +63,13 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { archivoToolStripMenuItem, aboutUsToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(619, 28);
+            menuStrip1.Size = new Size(550, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // archivoToolStripMenuItem
             // 
-            archivoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ejerciciosConListToolStripMenuItem, ejerciciosConLinkedListToolStripMenuItem, ejerciciosConStackToolStripMenuItem, ejerciciosConQueueToolStripMenuItem, ejerciciosConDictionaryToolStripMenuItem, opc1ToolStripMenuItem });
+            archivoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ejerciciosConListToolStripMenuItem, ejerciciosConLinkedListToolStripMenuItem, ejerciciosConStackToolStripMenuItem, ejerciciosConQueueToolStripMenuItem, ejerciciosConDictionaryToolStripMenuItem });
             archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             archivoToolStripMenuItem.Size = new Size(73, 24);
             archivoToolStripMenuItem.Text = "Archivo";
@@ -94,12 +93,14 @@
             listaDeTareasPendientesToolStripMenuItem.Name = "listaDeTareasPendientesToolStripMenuItem";
             listaDeTareasPendientesToolStripMenuItem.Size = new Size(346, 26);
             listaDeTareasPendientesToolStripMenuItem.Text = "Lista de Tareas Pendientes";
+            listaDeTareasPendientesToolStripMenuItem.Click += listaDeTareasPendientesToolStripMenuItem_Click;
             // 
             // registroDeCalificacionesDeAlumnosToolStripMenuItem
             // 
             registroDeCalificacionesDeAlumnosToolStripMenuItem.Name = "registroDeCalificacionesDeAlumnosToolStripMenuItem";
             registroDeCalificacionesDeAlumnosToolStripMenuItem.Size = new Size(346, 26);
             registroDeCalificacionesDeAlumnosToolStripMenuItem.Text = "Registro de Calificaciones de Alumnos";
+            registroDeCalificacionesDeAlumnosToolStripMenuItem.Click += registroDeCalificacionesDeAlumnosToolStripMenuItem_Click;
             // 
             // ejerciciosConLinkedListToolStripMenuItem
             // 
@@ -113,18 +114,21 @@
             gestiónDeListaDeEsperaEnRestauranteToolStripMenuItem.Name = "gestiónDeListaDeEsperaEnRestauranteToolStripMenuItem";
             gestiónDeListaDeEsperaEnRestauranteToolStripMenuItem.Size = new Size(368, 26);
             gestiónDeListaDeEsperaEnRestauranteToolStripMenuItem.Text = "Gestión de Lista de Espera en Restaurante";
+            gestiónDeListaDeEsperaEnRestauranteToolStripMenuItem.Click += gestiónDeListaDeEsperaEnRestauranteToolStripMenuItem_Click;
             // 
             // historialDeUnEditorDeTextoToolStripMenuItem
             // 
             historialDeUnEditorDeTextoToolStripMenuItem.Name = "historialDeUnEditorDeTextoToolStripMenuItem";
             historialDeUnEditorDeTextoToolStripMenuItem.Size = new Size(368, 26);
             historialDeUnEditorDeTextoToolStripMenuItem.Text = "Historial de un Editor de Texto";
+            historialDeUnEditorDeTextoToolStripMenuItem.Click += historialDeUnEditorDeTextoToolStripMenuItem_Click;
             // 
             // listaDeReproducciónDeMúsicaToolStripMenuItem
             // 
             listaDeReproducciónDeMúsicaToolStripMenuItem.Name = "listaDeReproducciónDeMúsicaToolStripMenuItem";
             listaDeReproducciónDeMúsicaToolStripMenuItem.Size = new Size(368, 26);
             listaDeReproducciónDeMúsicaToolStripMenuItem.Text = "Lista de Reproducción de Música";
+            listaDeReproducciónDeMúsicaToolStripMenuItem.Click += listaDeReproducciónDeMúsicaToolStripMenuItem_Click;
             // 
             // ejerciciosConStackToolStripMenuItem
             // 
@@ -138,18 +142,21 @@
             simuladorDePilaDePlatosToolStripMenuItem.Name = "simuladorDePilaDePlatosToolStripMenuItem";
             simuladorDePilaDePlatosToolStripMenuItem.Size = new Size(342, 26);
             simuladorDePilaDePlatosToolStripMenuItem.Text = "Simulador de Pila de Platos";
+            simuladorDePilaDePlatosToolStripMenuItem.Click += simuladorDePilaDePlatosToolStripMenuItem_Click;
             // 
             // verificadorDeParéntesisBalanceadosToolStripMenuItem
             // 
             verificadorDeParéntesisBalanceadosToolStripMenuItem.Name = "verificadorDeParéntesisBalanceadosToolStripMenuItem";
             verificadorDeParéntesisBalanceadosToolStripMenuItem.Size = new Size(342, 26);
             verificadorDeParéntesisBalanceadosToolStripMenuItem.Text = "Verificador de Paréntesis Balanceados";
+            verificadorDeParéntesisBalanceadosToolStripMenuItem.Click += verificadorDeParéntesisBalanceadosToolStripMenuItem_Click;
             // 
             // historialDeNavegaciónWebToolStripMenuItem
             // 
             historialDeNavegaciónWebToolStripMenuItem.Name = "historialDeNavegaciónWebToolStripMenuItem";
             historialDeNavegaciónWebToolStripMenuItem.Size = new Size(342, 26);
             historialDeNavegaciónWebToolStripMenuItem.Text = "Historial de Navegación Web";
+            historialDeNavegaciónWebToolStripMenuItem.Click += historialDeNavegaciónWebToolStripMenuItem_Click;
             // 
             // ejerciciosConQueueToolStripMenuItem
             // 
@@ -163,18 +170,21 @@
             colaDeImpresiónDeDocumentosToolStripMenuItem.Name = "colaDeImpresiónDeDocumentosToolStripMenuItem";
             colaDeImpresiónDeDocumentosToolStripMenuItem.Size = new Size(322, 26);
             colaDeImpresiónDeDocumentosToolStripMenuItem.Text = "Cola de Impresión de Documentos";
+            colaDeImpresiónDeDocumentosToolStripMenuItem.Click += colaDeImpresiónDeDocumentosToolStripMenuItem_Click;
             // 
             // simuladorDeCallCenterToolStripMenuItem
             // 
             simuladorDeCallCenterToolStripMenuItem.Name = "simuladorDeCallCenterToolStripMenuItem";
             simuladorDeCallCenterToolStripMenuItem.Size = new Size(322, 26);
             simuladorDeCallCenterToolStripMenuItem.Text = "Simulador de Call Center";
+            simuladorDeCallCenterToolStripMenuItem.Click += simuladorDeCallCenterToolStripMenuItem_Click;
             // 
             // procesosEnElSistemaOperativoToolStripMenuItem
             // 
             procesosEnElSistemaOperativoToolStripMenuItem.Name = "procesosEnElSistemaOperativoToolStripMenuItem";
             procesosEnElSistemaOperativoToolStripMenuItem.Size = new Size(322, 26);
             procesosEnElSistemaOperativoToolStripMenuItem.Text = "Procesos en el Sistema Operativo";
+            procesosEnElSistemaOperativoToolStripMenuItem.Click += procesosEnElSistemaOperativoToolStripMenuItem_Click;
             // 
             // ejerciciosConDictionaryToolStripMenuItem
             // 
@@ -188,24 +198,21 @@
             directorioTelefónicoToolStripMenuItem.Name = "directorioTelefónicoToolStripMenuItem";
             directorioTelefónicoToolStripMenuItem.Size = new Size(324, 26);
             directorioTelefónicoToolStripMenuItem.Text = "Directorio Telefónico";
+            directorioTelefónicoToolStripMenuItem.Click += directorioTelefónicoToolStripMenuItem_Click;
             // 
             // catálogoDeProductosPorCódigoToolStripMenuItem
             // 
             catálogoDeProductosPorCódigoToolStripMenuItem.Name = "catálogoDeProductosPorCódigoToolStripMenuItem";
             catálogoDeProductosPorCódigoToolStripMenuItem.Size = new Size(324, 26);
             catálogoDeProductosPorCódigoToolStripMenuItem.Text = "Catálogo de Productos por Código";
+            catálogoDeProductosPorCódigoToolStripMenuItem.Click += catálogoDeProductosPorCódigoToolStripMenuItem_Click;
             // 
             // traductorDeIdiomasToolStripMenuItem
             // 
             traductorDeIdiomasToolStripMenuItem.Name = "traductorDeIdiomasToolStripMenuItem";
             traductorDeIdiomasToolStripMenuItem.Size = new Size(324, 26);
             traductorDeIdiomasToolStripMenuItem.Text = "Traductor de Idiomas";
-            // 
-            // opc1ToolStripMenuItem
-            // 
-            opc1ToolStripMenuItem.Name = "opc1ToolStripMenuItem";
-            opc1ToolStripMenuItem.Size = new Size(254, 26);
-            opc1ToolStripMenuItem.Text = "Salir";
+            traductorDeIdiomasToolStripMenuItem.Click += traductorDeIdiomasToolStripMenuItem_Click;
             // 
             // aboutUsToolStripMenuItem
             // 
@@ -217,25 +224,25 @@
             // label1
             // 
             label1.Font = new Font("Impact", 15.8F, FontStyle.Underline);
-            label1.Location = new Point(45, 40);
+            label1.Location = new Point(18, 47);
             label1.Name = "label1";
-            label1.Size = new Size(537, 70);
+            label1.Size = new Size(513, 70);
             label1.TabIndex = 1;
             label1.Text = "Trabajo integrador de Estructuras Dinamicas en WinForms";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            label2.Location = new Point(45, 133);
+            label2.Location = new Point(18, 135);
             label2.Name = "label2";
-            label2.Size = new Size(537, 59);
+            label2.Size = new Size(513, 59);
             label2.TabIndex = 2;
             label2.Text = "En este proyecto vas a encontrar diferentes practicas de 5 estructuras de datos (List, LinkedList, Queue, Stack y Dictionary)";
             // 
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(241, 212);
+            linkLabel1.Location = new Point(207, 213);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(139, 20);
             linkLabel1.TabIndex = 3;
@@ -247,14 +254,15 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(619, 259);
+            ClientSize = new Size(550, 242);
             Controls.Add(linkLabel1);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Inicio";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -265,7 +273,6 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem archivoToolStripMenuItem;
-        private ToolStripMenuItem opc1ToolStripMenuItem;
         private ToolStripMenuItem ejerciciosConListToolStripMenuItem;
         private ToolStripMenuItem gestiónDeInventarioDeTiendaToolStripMenuItem;
         private ToolStripMenuItem listaDeTareasPendientesToolStripMenuItem;
